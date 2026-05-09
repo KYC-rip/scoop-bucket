@@ -1,19 +1,19 @@
 {
-    "version": "0.1.24",
+    "version": "0.1.25",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kyc-rip/cli/releases/download/v0.1.24/kyc-cli_0.1.24_windows_amd64.zip",
+            "url": "https://github.com/kyc-rip/cli/releases/download/v0.1.25/kyc-cli_0.1.25_windows_amd64.zip",
             "bin": [
                 "kyc-cli.exe"
             ],
-            "hash": "fe0898a75d7a12b7c2010233c555c5506dfc5fee21a8a9c3a9cf2b523e1ad190"
+            "hash": "8bbaba21ae25e20159c0399e1bc73df2b6758c2e2f659ef18ed9d07a91d96ea6"
         },
         "arm64": {
-            "url": "https://github.com/kyc-rip/cli/releases/download/v0.1.24/kyc-cli_0.1.24_windows_arm64.zip",
+            "url": "https://github.com/kyc-rip/cli/releases/download/v0.1.25/kyc-cli_0.1.25_windows_arm64.zip",
             "bin": [
                 "kyc-cli.exe"
             ],
-            "hash": "2fa88cd6bf5858656aa21b59d35d983589286a9555c713aca30034e3e708cee4"
+            "hash": "2fe435768698d4dd20484ba9507d430fba2b76bd27c315c5663b1767e92744c2"
         }
     },
     "homepage": "https://swap.kyc.rip",
