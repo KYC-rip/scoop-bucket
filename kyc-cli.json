@@ -1,0 +1,30 @@
+{
+  "version": "0.1.4",
+  "description": "Terminal-only crypto swap (the kyc.rip aggregator as a TUI)",
+  "homepage": "https://swap.kyc.rip",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/kyc-rip/cli/releases/download/v0.1.4/kyc-cli_0.1.4_windows_amd64.zip",
+      "hash": "7b0e2e83e163d046aa65a86fcad91ed361f8417952ec7b13f362e279c62e119b"
+    },
+    "arm64": {
+      "url": "https://github.com/kyc-rip/cli/releases/download/v0.1.4/kyc-cli_0.1.4_windows_arm64.zip",
+      "hash": "768bfb76e2d7a4fbed216724413249329d0cacb923ebf63610d97166e2309b84"
+    }
+  },
+  "bin": "kyc-cli.exe",
+  "checkver": {
+    "github": "https://github.com/kyc-rip/cli"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/kyc-rip/cli/releases/download/v$version/kyc-cli_$version_windows_amd64.zip"
+      },
+      "arm64": {
+        "url": "https://github.com/kyc-rip/cli/releases/download/v$version/kyc-cli_$version_windows_arm64.zip"
+      }
+    }
+  }
+}
